@@ -1,0 +1,7 @@
+{
+  "name": "recelecia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
