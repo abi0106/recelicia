@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log('inside const');
+   }
 
   ngOnInit() {
+    console.log('inside onint');
   }
 
 }

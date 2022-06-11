@@ -1,20 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { HomePage } from './home.page';
+import { PickupCallCardComponent } from './pickup-call-card.component';
 
-describe('HomePage', () => {
-  console.log('inside test');
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('PickupCallCardComponent', () => {
+  let component: PickupCallCardComponent;
+  let fixture: ComponentFixture<PickupCallCardComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomePage ],
+      declarations: [ PickupCallCardComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(PickupCallCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
